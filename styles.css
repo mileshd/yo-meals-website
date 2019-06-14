@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Cinzel');
+
+body {
+  font-family: 'Lora', serif;
+}
+
+.home__about {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.home__projects a {
+  color: black;
+}
+.home__projects a:hover, .home__projects a:focus {
+  text-decoration: none;
+}
+
+.project {
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+.project:hover {
+  cursor: pointer;
+}
+.project .teaser {
+  font-size: 14px;
+}
+.project.yo-self {
+  background: #bfe8eb;
+}
+.project.yo-meals {
+  background: #d3ebbf;
+}
+.project.yo-household {
+  background: #f7c87a;
+}
+.project.yo-relationships {
+  background: #ccb0e3;
+}
+.project.yo-entertainment {
+  background: #f3a58b;
+}
+.project.yo-events {
+  background: #efea8e;
+}
+
+.project__title {
+  font-size: 20px;
+}
+.project__description {
+}
