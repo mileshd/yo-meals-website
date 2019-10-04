@@ -2,17 +2,24 @@
 
 body {
   font-family: 'Lora', serif;
+  background: #f1fce8;
+}
+
+.home__pitch {
+  margin-top: 20px;
+}
+.home__title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.home__content {
+  font-size: 24px;
+  margin-bottom: 25px;
 }
 
 .email {
   color: green;
 }
-
-.home__one {
-  padding: 15px;
-}
-
-.home__about {
-  /*margin-top: 25px;*/
-  /*margin-bottom: 25px;*/
+.app {
+  color: blue;
 }
