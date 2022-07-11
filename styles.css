@@ -9,12 +9,27 @@ body {
   margin-top: 20px;
 }
 .home__title {
+  text-align: center;
   font-size: 36px;
-  margin-bottom: 20px;
+  padding: 35px;
+  /*margin-bottom: 20px;*/
 }
+
 .home__content {
   font-size: 24px;
+  line-height: 2.5;
   margin-bottom: 25px;
+}
+
+.home__footer {
+  margin-top: 60px;
+  width: 100%;
+  text-align: center;
+}
+.home__footer .btn {
+  margin-right: 25px;
+  padding: 25px;
+  font-size: 22px;
 }
 
 .email {
